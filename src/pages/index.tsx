@@ -23,7 +23,7 @@ import { HotelItems } from "../components/organisms";
 
 const StarsDivider = () => (
   <HStack pt="4">
-    {new Array(5).fill(0).map((_, i) => (
+    {new Array(4).fill(0).map((_, i) => (
       <StarIcon key={i} boxSize="8" color="#958247" />
     ))}
   </HStack>
