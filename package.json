@@ -18,6 +18,7 @@
   "dependencies": {
     "@snek-at/jaen": "^0.0.110",
     "gatsby": "^5.9.0",
+    "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-jaen": "^0.0.32",
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-plugin-sitemap": "^6.9.0",
