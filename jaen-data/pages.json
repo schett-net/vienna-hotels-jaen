@@ -1,17 +1,13 @@
 {
   "JaenPage /": {
     "context": {
-      "createdAt": "2023-08-01T16:36:58.437Z",
-      "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjF2TJNKqQPOQwEbNGtbOSuhFdoANVAAJ0DwAC0f1IUrWpbEjPmeM7LwQ"
+      "createdAt": "2023-08-01T18:22:38.601Z",
+      "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjGWTJTW5vFb9qvVW0OTnJm3VL9dkyAAKZDwAC0f1IUvOMNlk-tCkjLwQ"
     },
     "migrations": [
       {
-        "createdAt": "2023-05-02T20:41:07.287Z",
-        "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIV2mRRdWOO8454UzTJlXsC1lB-u5E4AALBDAAC9maJUoqF2-mOyyMBLwQ"
-      },
-      {
-        "createdAt": "2023-08-01T16:36:58.437Z",
-        "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjF2TJNKqQPOQwEbNGtbOSuhFdoANVAAJ0DwAC0f1IUrWpbEjPmeM7LwQ"
+        "createdAt": "2023-08-01T18:22:38.601Z",
+        "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjGWTJTW5vFb9qvVW0OTnJm3VL9dkyAAKZDwAC0f1IUvOMNlk-tCkjLwQ"
       }
     ]
   }
