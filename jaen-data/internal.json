@@ -1,8 +1,8 @@
 {
   "siteMetadata": {
     "title": "Vienna's Finest Hotels - Your Gateway to the Best Hotels in Vienna",
-    "siteUrl": "https://vienna-hotels.com",
-    "description": "Discover Vienna's best hotels for a stylish stay. Book with ease and get all the details you need on our user-friendly site.",
+    "siteUrl": "https://viennahotels.at",
+    "description": "Discover Vienna's best stays for a stylish stay. Book with ease and get all the details you need on our user-friendly site.",
     "author": {
       "name": ""
     },
@@ -16,7 +16,18 @@
     {
       "createdAt": "2023-05-02T20:41:07.287Z",
       "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIV2WRRdVEl_IGY0vD5mThYATP92QwFAALADAAC9maJUtHz_LjHxXeGLwQ"
+    },
+    {
+      "createdAt": "2023-08-01T16:13:41.541Z",
+      "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjEWTJLjiGBS7Kx5VEAmZ5JiuR8fNfAAJlDwAC0f1IUinaeG7l0s4mLwQ"
+    },
+    {
+      "createdAt": "2023-08-01T16:36:58.437Z",
+      "fileUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjFmTJNJO-GUMZkB52DzHzNwce7R-sAAJzDwAC0f1IUrflZHVgxMSyLwQ"
     }
   ],
-  "finderUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIV2GRRdVEjhJ0_b36APU4tsDBi5rbhAAK_DAAC9maJUnKuVJ8Ci86nLwQ"
+  "finderUrl": "https://osg.snek.at/storage/BQACAgQAAxkDAAIjFWTJNJMCiIkGolvTPyLUf2HhrTO_AAJyDwAC0f1IUlCrMLLXAcswLwQ",
+  "site": {
+    "siteMetadata": {}
+  }
 }

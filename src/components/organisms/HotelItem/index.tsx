@@ -46,45 +46,34 @@ export const HotelItem = connectBlock(
           }}
         >
           <Box h="64">
-            <Field.Image
-              name={"image"}
-              label="Image"
-              defaultValue={undefined}
-            />
+            <Field.Image name={"image"} />
           </Box>
 
           <VStack p={5} spacing={2} align={"center"}>
-            <Text
-              as="span"
+            <Field.Text
+              name={"lead"}
+              textAlign={"center"}
+              defaultValue={"Lead"}
               color="gray.500"
               fontSize="sm"
-              textTransform="uppercase"
-            >
-              <Field.Text name={"lead"} defaultValue={"Lead"} label="Lead" />
-            </Text>
-            <Heading
+            />
+            <Field.Text
+              as={Heading}
+              name={"title"}
+              defaultValue={"City Pension"}
               fontSize={"3xl"}
               fontFamily={"heading"}
               fontWeight={500}
-              as="span"
-            >
-              <Field.Text
-                name={"title"}
-                defaultValue={"City Pension"}
-                label="Heading"
-              />
-            </Heading>
-            <Text color={"gray.500"} textAlign="center" as="span">
-              <Field.Text
-                name={"address"}
-                defaultValue={"Addresse"}
-                label="Address"
-              />
-            </Text>
-            <Box h="3rem">
+            />
+            <Field.Text
+              name={"address"}
+              defaultValue={"Addresse"}
+              color={"gray.500"}
+              textAlign="center"
+            />
+            <Box h="3rem" w="full">
               <Field.Image
                 name={"logoimage"}
-                label="Logo"
                 objectFit={"contain"}
                 style={{
                   width: "auto",
@@ -92,13 +81,11 @@ export const HotelItem = connectBlock(
                 imgStyle={{
                   objectFit: "contain",
                 }}
-                defaultValue={undefined}
               />
             </Box>
             <Field.Text
               name="hiddenUrl"
               defaultValue="Empty"
-              label="URL"
               style={{
                 display: hiddenUrlField.isEditing ? "block" : "none",
               }}

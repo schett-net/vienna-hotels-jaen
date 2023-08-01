@@ -11,14 +11,14 @@ const config: GatsbyConfig = {
   },
   siteMetadata: {
     title: `vienna-hotels`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://viennahotels.at`,
   },
   jsxRuntime: "automatic",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: "iamges",
+        name: "images",
         path: `${__dirname}/src/images/`,
       },
     },

@@ -54,7 +54,7 @@ export default connectPage(
             fontWeight={"thin"}
             textAlign={"center"}
           >
-            <Field.Text name="text1" defaultValue="Hotels" label="Pre" />
+            <Field.Text name="text1" defaultValue="Hotels" />
           </Heading>
           <Heading
             w="full"
@@ -68,11 +68,7 @@ export default connectPage(
             mt={10}
             color="#958247"
           >
-            <Field.Text
-              name="title"
-              defaultValue="Vienna Hotels"
-              label="Heading"
-            />
+            <Field.Text name="title" defaultValue="Vienna Hotels" />
           </Heading>
           <Heading
             as="span"
@@ -81,11 +77,7 @@ export default connectPage(
             fontWeight={"thin"}
             textAlign={"center"}
           >
-            <Field.Text
-              name="text2"
-              defaultValue="Hotels in Vienna"
-              label="Text"
-            />
+            <Field.Text name="text2" defaultValue="Hotels in Vienna" />
           </Heading>
 
           <StarsDivider />
@@ -95,7 +87,7 @@ export default connectPage(
           <HotelItems />
         </Box>
 
-        <StaticImage src="../images/skyline.jpeg" alt="Skyline of Vienna" />
+        {/* <StaticImage src="../images/skyline.jpeg" alt="Skyline of Vienna" /> */}
         <Box>
           <Modal
             isOpen={impressumDisclosure.isOpen}
@@ -109,9 +101,7 @@ export default connectPage(
               <ModalBody>
                 <Field.Text
                   name="impressum"
-                  rtf
                   defaultValue={`<p>Impressum gemäß § 25 Mediengesetz:</p><p>Medieninhaber und Herausgeber:</p><p>MATE Beherbergungsbetriebe GmbH City Pension Bauernmarkt 10, 1010 Wien Telefon: +43 1 533 9521 E-Mail: <a href="mailto:welcome@citypension.at">welcome@citypension.at</a> Web: <a target="_blank" rel="noopener noreferrer" href="http://www.citypension.at/">www.citypension.at</a></p><p>Firmenbuchnummer: FN 405266t Firmenbuchgericht: Handelsgericht Wien UID-Nummer: ATU68442134</p><p>Unternehmensgegenstand: Beherbergung, Frühstückspension, Bed &amp; Breakfast</p><p>Mitglied bei der Wirtschaftskammer Wien</p><p>Behörde gem. ECG (E-Commerce Gesetz): Magistratisches Bezirksamt des I. Bezirkes</p><p>Berufsrecht: Gewerbeordnung: <a target="_blank" rel="noopener noreferrer" href="http://www.ris.bka.gv.at/">www.ris.bka.gv.at</a></p><p>Die MATE Beherbergungsbetriebe GmbH ist ein in Österreich ansässiges Unternehmen.</p><p>Offenlegung nach § 25 Mediengesetz: Die Website dient der Darstellung und Bewerbung des Unternehmens und bietet Informationen über die angebotenen Leistungen.</p><p>Für den Inhalt verantwortlich: MATE Beherbergungsbetriebe GmbH</p><p>Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>`}
-                  label="Impressum"
                 />
               </ModalBody>
             </ModalContent>
